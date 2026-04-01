@@ -1,0 +1,285 @@
+@media(min-width:764px) {
+    .span-2-rows {
+        max-height: 450px;
+        height: 100%;
+        grid-row: span 2;
+    }
+
+    .span-2-column {
+        grid-column: span 2;
+    }
+}
+
+@media (min-width:1068px) {
+    .w-md-70 {
+        width: 70% !important;
+    }
+}
+
+@media (max-width:1064px) {
+
+    .faqContainer,
+    .gap-md-30 {
+        gap: 30px !important
+    }
+
+    .admissionBadge span,
+    .cardContainer div p,
+    .faq-number,
+    .accordion-body {
+        font-size: 14px;
+    }
+
+    .form,
+    .programPara,
+    .whyTheseStreamImg img,
+    .imageOverlay,
+    .footerLeft p,
+    .contactInfo,
+    .footerRight {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .logo-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media (max-width:920px) {
+
+    .hero-container,
+    .container-py {
+        padding: 40px 0px;
+    }
+
+    .offerContent,
+    .text-coral {
+        padding: 0px 15px;
+    }
+
+    .journeyCard {
+        padding: 15px 10px;
+    }
+
+    .apply-btn,
+    .enrollbtn,
+    .tab-btn,
+    .ctabutton {
+        padding: 10px 20px;
+    }
+
+    .admissionBadge {
+        padding: 10px 30px;
+    }
+
+    .footerRight {
+        padding-top: 20px;
+    }
+
+    .career-card .card-body {
+        padding: 15px;
+    }
+
+    .tab-toggle {
+        padding: 10px;
+    }
+
+    .formBody,
+    .formHead {
+        padding: 30px;
+    }
+
+    .mainHead,
+    .offerHead h3,
+    .beginJourney {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .headline,
+    .opportunityHead,
+    .careerPathway,
+    .journey-head h4 {
+        font-size: 34px;
+    }
+
+    .faq-header h3,
+    .admissionOpenContainer h3,
+    .programSubHead,
+    .campusExperience h3,
+    .journeyCard h4,
+    .careerContent h3,
+    .why-title,
+    .corp-title,
+    .section-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .formHead h3,
+    .offerCard>div:nth-child(2) h4,
+    .offerCard>div:nth-child(3) h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .eligibilitySub,
+    .process-card h4 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .enrollbtn,
+    .careerPathwaysHead p,
+    .beginJourneyPara,
+    .why-desc {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .text-coral,
+    .offerInnerContent p,
+    .faqpara,
+    .admissionOpenContainer p,
+    .programPara,
+    .corp-desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .careerSubHead,
+    .admissionOpenContainer span,
+    .our-program span {
+        font-size: 12px;
+    }
+
+    .footerLeft img {
+        max-width: 200px;
+    }
+
+    .form {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .form,
+    .footerLeft p,
+    .contactInfo,
+    .footerRight,
+    .process-card p {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+
+    .form-svg {
+        right: 0px;
+    }
+
+    .heroContent {
+        gap: 10px;
+    }
+
+    .offerContent,
+    .ourDifferenceMain {
+        gap: 15px
+    }
+
+    .offerMain,
+    .offerCard {
+        gap: 20px;
+    }
+
+    .mainfooter,
+    .opportunityGap {
+        gap: 35px
+    }
+
+    .gap-md-30 {
+        gap: 30px;
+    }
+
+    .mainPara {
+        max-width: 100%;
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0px 5px;
+    }
+
+    .eligiblity-bg {
+        border-radius: 0px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logo-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .prog-card {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+@media (max-width:764px) {
+    .hero-img {
+        bottom: -37px;
+    }
+
+    .process-row-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .prog-tabs {
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .journeyCard {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-hero {
+        width: 100% !important;
+    }
+
+    .process-row-container {
+        padding-top: 20px;
+        gap: 30px;
+    }
+
+    .iconCircle {
+        width: 50px;
+        height: 50px;
+        padding: 0 14px;
+        top: -25px;
+    }
+
+    .campus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        min-height: 220px;
+    }
+
+    .campus-section {
+        padding: 50px 0 70px;
+    }
+
+    .prog-card {
+        flex: 0 0 85%;
+    }
+
+    .logo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,1016 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../font/segoeuithis.ttf");
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Inter", "Playfair Display";
+}
+
+input {
+    outline: none;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.heroContent,
+.gap-20,
+.formBody {
+    gap: 20px
+}
+
+.inter {
+    font-family: Inter !important;
+}
+
+.pb-15px {
+    padding-bottom: 15px;
+}
+
+.text-orange {
+    color: #E42A1D !important;
+}
+
+.text-navy {
+    color: #216CB4 !important;
+}
+
+
+.bg-navy {
+    background-color: #216CB4 !important;
+}
+
+.text-gray {
+    color: #777 !important;
+}
+
+.text-color-1 {
+    color: #666 !important;
+}
+
+.text-color-3 {
+    color: #C5C5C5 !important;
+}
+
+.text-color-4 {
+    color: #6A7282 !important;
+}
+
+.text-color-5 {
+    color: #444 !important;
+}
+
+.text-color-6 {
+    color: #EEE !important;
+}
+
+.bg-FFF {
+    background-color: #FFF;
+}
+
+.text-gray-2 {
+    color: #99A1AF !important;
+}
+
+.opacity-90 {
+    opacity: 90%;
+}
+
+.opacity-40 {
+    opacity: 40%;
+}
+
+.border-orange {
+    border-color: rgba(228, 107, 63, 0.40) !important;
+}
+
+.bg-orange {
+    background-color: #E42A1D !important;
+}
+
+.bg-orange-2 {
+    background-color: #ED691D !important;
+}
+
+.bg-lightgrey {
+    background-color: #F4F4F4 !important;
+}
+
+.bg-F8F7F7 {
+    background-color: #F8F7F7 !important;
+}
+
+.text-darkBlue {
+    color: #1F144F !important
+}
+
+.bg-darkBlue-soft {
+    background-color: #1F144F05 !important;
+}
+
+.bg-darkBlue {
+    background-color: #1F144F !important
+}
+
+.bg-lineColor {
+    background-color: #FFFFFF66 !important;
+}
+
+.text-lineColor {
+    color: #FFFFFF66 !important;
+}
+
+.text-darkblack {
+    color: #0A0A1A !important;
+}
+
+.bg-darkblack {
+    background-color: #0A0A1A !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.ls-1 {
+    letter-spacing: 1px !important;
+}
+
+.ls-2 {
+    letter-spacing: 2px !important;
+}
+
+.ls-3 {
+    letter-spacing: 3px !important;
+}
+
+.w-30 {
+    width: 30px !important;
+}
+
+.container-py {
+    padding: 80px 0px;
+}
+
+/* Hero Section */
+.logo {
+    max-width: 313px;
+    max-height: 126px;
+    aspect-ratio: 236/95;
+    margin-bottom: 35px;
+}
+
+.heroBgImage {
+    background:
+        radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0) 100%),
+        url('../images/Section.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    padding: 60px 0px 90px 0px;
+}
+
+.admissionBadge {
+    padding: 10px 50px;
+    gap: 12px;
+    border-radius: 26843500px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(4px);
+}
+
+.admissionBadge div {
+    width: 8px;
+    height: 8px;
+    border-radius: 37770672px;
+    background: #FFF;
+}
+
+.admissionBadge span,
+.card-body p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.mainHead,
+.beginJourney {
+    font-family: "Playfair Display";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 90px;
+    max-width: 570px;
+    width: 100%;
+}
+
+.mainPara {
+    max-width: 500px;
+    width: 100%;
+    color: #ffffff99;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29.25px;
+    padding: 0px 10px;
+}
+
+.ribbon-banner {
+    color: #F39F99;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 25px 0px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+}
+
+.text-coral {
+    color: #F39F99;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    background: white;
+    padding: 0px 30px;
+}
+
+/* Hero Section */
+
+/* Form */
+.form {
+    width: 500px;
+    border-radius: 10px 10px 0 0;
+    background: #FFF;
+}
+
+.formHead,
+.form-field {
+    border-bottom: 1px solid #4D4D4D;
+}
+
+.formHead h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding-right: 40px;
+}
+
+.form-svg {
+    bottom: 20px;
+    right: 60px
+}
+
+.formBody,
+.formHead,
+.ctaContainer {
+    padding: 40px;
+}
+
+.apply-btn {
+    padding: 15px 30px;
+    background: #E42A1D;
+    border-radius: 26843500px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+}
+
+/* Form */
+
+/* We Offer */
+.offerMain {
+    gap: 28px;
+}
+
+.list-design {
+    border-top: 0.8px solid #2000201c;
+    color: #200020;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 20px 0px;
+    width: 300px;
+}
+
+.offerContent {
+    gap: 32px
+}
+
+.offerHead>span,
+.ourDifferenceHead>div>span,
+.reasons-label {
+    color: #E42A1D;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3px;
+}
+
+.offerHead h3 {
+    color: #200020;
+    font-family: "Playfair Display";
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.borderBottom>span,
+.ourDifferenceHead>div>div,
+.card-divider,
+.careerDivider {
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    border-radius: 200px !important;
+    background-color: #200020;
+}
+
+.borderBottom span:nth-child(2) {
+    width: 20px;
+    background-color: rgba(32, 0, 32, 30%);
+}
+
+.enrollbtn {
+    padding: 12px 34px;
+    background: #E42A1D;
+    gap: 8px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px
+}
+
+.offerCard {
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.offerCard>div:nth-child(1) h3 {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 2.64px;
+    opacity: 0.8;
+}
+
+.offerCard>div:nth-child(1) span {
+    width: 40px;
+    height: 2px;
+    opacity: 0.4;
+    background: #FFF;
+}
+
+.offerCard>div:nth-child(2) h4,
+.offerCard>div:nth-child(3) h4,
+.card-title {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 22px;
+}
+
+/* We Offer */
+
+/* Our Difference */
+.ourDifferenceMain {
+    gap: 44px;
+}
+
+.ourDifferenceHead,
+.ctaContainer {
+    gap: 18px;
+}
+
+.headline {
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.rightPlace {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.feature-card {
+    gap: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.student-image-col {
+    width: 422px;
+    aspect-ratio: 43/80;
+}
+
+/* Our Difference */
+
+/* Opprtunity */
+.opportunityHead {
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1.344px;
+}
+
+.opportunityGap,
+.gap-50 {
+    gap: 60px;
+}
+
+.opportunityImg {
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    max-height: 323px;
+    aspect-ratio: 1173/296;
+}
+
+/* Opprtunity */
+
+/* Our key */
+.programSubHead {
+    font-family: "Playfair Display";
+    color: #1F144F;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.cardGrid {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 20px;
+}
+
+.strengthCard {
+    width: 220px;
+    gap: 20px;
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid rgba(31, 20, 79, 0.50);
+    background: #FFF;
+    box-shadow: 2px 4px 4px 0 rgba(132, 113, 216, 0.60);
+}
+
+.strengthCard div:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1/1;
+}
+
+.strengthCard h5 {
+    color: #000;
+    font-size: 14.72px;
+    font-weight: 700;
+    line-height: 21.344px;
+}
+
+.strengthCard span {
+    border-radius: 26843500px;
+    background: rgba(31, 20, 79, 0.70);
+    width: 24px;
+    height: 2px;
+}
+
+/* Our key */
+
+/* Career Pathways */
+.careerPathway {
+    color: #200020;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 800px;
+    width: 100%;
+}
+
+.careerPathwaysHead p {
+    color: #6A7282;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.25px;
+    max-width: 580px;
+    width: 100%;
+}
+
+.tab-toggle {
+    border-radius: 26843500px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.10), 0 2px 4px -2px rgba(0, 0, 0, 0.10);
+    max-width: 510px;
+    width: 100%;
+    padding: 20px;
+}
+
+.tab-toggle {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 26843500px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.10), 0 2px 4px -2px rgba(0, 0, 0, 0.10);
+    max-width: 510px;
+    width: 100%;
+    padding: 20px;
+    gap: 4px;
+}
+
+.tab-btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6A7282;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.tab-btn.active {
+    background-color: #E42A1D;
+    color: #ffffff;
+}
+
+.career-card {
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0 8.363px 12.545px -2.509px rgba(0, 0, 0, 0.10), 0 3.345px 5.018px -3.345px rgba(0, 0, 0, 0.10);
+}
+
+.card-img-wrap {
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.card-img-wrap img {
+    border-radius: 14px 14px 0px 0px;
+}
+
+.card-img-wrap .img-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(228, 42, 29, 0.80) 0%, rgba(228, 42, 29, 0.00) 100%);
+    opacity: 0.6;
+}
+
+.card-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    border-radius: 1000px;
+}
+
+.ctaContainer,
+.beginJourney {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.custom-card {
+    cursor: pointer;
+    min-height: 200px;
+}
+
+.custom-card img {
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.description {
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-card:hover .description {
+    max-height: 100px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.custom-card:hover .overlay-content {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Card body */
+.career-card .card-body {
+    padding: 22px 20px 24px;
+}
+
+.career-card .card-body h5,
+.overlay-content h4 {
+    color: #200020;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.btn-career {
+    border-radius: 26843500px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* Career Pathways */
+.journey-head h4 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.journeyCard {
+    width: 197px;
+    padding: 25px 12px;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.journeyCard h4 {
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.eligiblity-bg {
+    border-radius: 0 400px 0 0;
+    background: #E42A1D;
+    max-height: 500px;
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.eligiblityImg,
+.leftContent {
+    z-index: 10;
+}
+
+.leftContent {
+    padding: 60px 0px 60px 60px;
+}
+
+.leftContent h4 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.eligibilitySub,
+.beginJourneyPara {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.beginJourneyPara {
+    max-width: 650px;
+    width: 100%;
+}
+
+.downloadBrochure {
+    border-radius: 26843500px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(4px);
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+/* Admission-Process */
+.process-line {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 743.4px;
+    height: 2px;
+    background: linear-gradient(90deg, #E46B3F 0%, rgba(228, 107, 63, 0.50) 50%, #E46B3F 100%);
+    z-index: 0;
+}
+
+.step-tag {
+    color: #C41230 !important;
+}
+
+.process-card h4 {
+    color: #ffffffe6;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.process-card {
+    padding: 35px 30px 24px 30px;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F9FAFB;
+}
+
+.iconCircle {
+    border-radius: 26843500px;
+    background: #E46B3F;
+    box-shadow: 0 10px 15px -3px rgba(196, 18, 48, 0.30), 0 4px 6px -4px rgba(196, 18, 48, 0.30);
+    width: 64px;
+    height: 64px;
+    padding: 0 18px;
+    top: -40px;
+}
+
+.process-head {
+    max-width: 650px;
+    width: 100%;
+}
+
+/* Admission-Process */
+
+/* FAQ Section */
+
+.accordion-item {
+    background-color: #ffffff !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+    background: rgba(228, 42, 29, 0.02) !important;
+    border: 0.895px solid rgba(228, 42, 29, 0.30) !important;
+    box-shadow: 0 3.58px 5.369px -0.895px rgba(0, 0, 0, 0.10), 0 1.79px 3.58px -1.79px rgba(0, 0, 0, 0.10);
+}
+
+.accordion-button:not(.collapsed) {
+    background: rgba(228, 42, 29, 0.02) !important;
+}
+
+.accordion-button {
+    background: #ffffff !important;
+    color: #364153;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19.688px;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-radius: 10px !important;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.faq-num {
+    border-radius: 24021882px;
+    background: #F3F4F6;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    color: #9CA3AF;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-button:not(.collapsed) .faq-num {
+    background: #E42A1D;
+    color: #FFF;
+}
+
+.faq-icon {
+    width: 28px;
+    height: 28px;
+    margin-left: auto;
+    border-radius: 50%;
+    background: #f0f0f0;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    color: #99A1AF;
+}
+
+.accordion-button.collapsed .faq-icon::before {
+    content: "+";
+}
+
+/* Open state */
+.accordion-button:not(.collapsed) .faq-icon::before {
+    content: "-";
+}
+
+.accordion-button:not(.collapsed) .faq-icon {
+    background: #E42A1D;
+    color: #fff;
+}
+
+.accordion-body {
+    border-left: 1.432px solid rgba(228, 42, 29, 0.20);
+    background: rgba(228, 42, 29, 0.02);
+    padding: 0px 0px 0px 20px;
+}
+
+.accordion-collapse {
+    padding: 10px 30px !important;
+}
+
+.faqpara {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+/* FAQ Section */
+.bgImage {
+    background:
+        linear-gradient(rgba(10, 10, 26, 0.85), rgba(10, 10, 26, 0.85)),
+        url("../images/Section-2.webp") top/cover no-repeat;
+    width: 100%;
+    min-height: 400px;
+    max-height: 800px;
+    height: 100%;
+}
+
+.admissionBadge,
+.newAdmission {
+    padding: 10px 50px 10px 25px;
+    gap: 12px;
+    border-radius: 37770672px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.admissionOpenHead {
+    color: #1F144F;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.admissionOpenPara {
+    color: rgba(31, 20, 79, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.32px;
+    width: 500px;
+}
+
+.admissionBadge div,
+.newAdmission div {
+    width: 12px;
+    height: 12px;
+    border-radius: 37770672px;
+    opacity: 0.5;
+    background: #FFF;
+}
+
+.ctaSpan {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* Footer */
+.footerLeft img {
+    max-width: 313px;
+    max-height: 126px;
+    aspect-ratio: 236/95;
+}
+
+.pathwayFooter p,
+.offerInnerContent p,
+.card-text,
+.journey-head p,
+.eligibilityPara,
+.process-head,
+.faqpara {
+    color: rgba(31, 20, 79, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 650px;
+    width: 100%;
+}
+
+.pathwayFooter {
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    padding: 20px 10px;
+    gap: 30px;
+    border-radius: 5px;
+    border-top: 1px solid rgba(31, 20, 79, 0.60);
+}
+
+.mainfooter {
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.footerLeft {
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.footerLeft p,
+.contactInfo,
+.contactInfo>a>span,
+.journeyCard p,
+.process-card p {
+    color: #99A1AF;
+    font-size: 14px;
+    line-height: 20px;
+    width: 367px;
+}
+
+.footerRight {
+    width: 388px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-top: 30px;
+}
+
+.footerRight h5,
+.sub-description,
+.ctaContainer p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.copyRightSection p,
+.careerSubHead,
+.process-card span {
+    color: #6A7282;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.FashionImg {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Footer */
