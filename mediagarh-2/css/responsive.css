@@ -101,7 +101,8 @@
     .footerLeft p,
     .contactInfo,
     .footerRight,
-    .journeyCard {
+    .journeyCard,
+    .process-card p {
         max-width: 100% !important;
         width: 100% !important;
     }
