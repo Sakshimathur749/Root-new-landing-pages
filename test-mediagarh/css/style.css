@@ -13,6 +13,10 @@ input {
     margin-top: 5px;
 }
 
+.form-control {
+    font-size: 16px !important;
+}
+
 .form-control:focus {
     box-shadow: none !important;
 }
@@ -67,6 +71,11 @@ input {
     height: 100%;
 }
 
+.h-550px {
+    max-height: 550px !important;
+    height: 100%;
+}
+
 .landing-integate {
     padding-bottom: 40px;
 }
@@ -118,6 +127,10 @@ input {
 
 .fw-700 {
     font-weight: 700 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
 }
 
 .gap-12 {
@@ -237,7 +250,7 @@ input {
     font-size: 14px;
     font-weight: 700;
     line-height: 19px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .programSubHead,
@@ -265,7 +278,6 @@ input {
 }
 
 .imageOverlay {
-    width: 500px;
     bottom: 0;
     padding: 30px;
     color: white;

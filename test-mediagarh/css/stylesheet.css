@@ -5,8 +5,8 @@ input(1054,18): run-time error CSS1062: Expected semicolon or closing curly-brac
 @font-face {
     font-family: 'Akrobat';
     src: url('../fonts/Akrobat-Light.woff2') format('woff2'),
-    url('../fonts/Akrobat-Light.woff') format('woff'),
-    url('../fonts/Akrobat-Light.svg#Akrobat-Light') format('svg');
+        url('../fonts/Akrobat-Light.woff') format('woff'),
+        url('../fonts/Akrobat-Light.svg#Akrobat-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -15,8 +15,8 @@ input(1054,18): run-time error CSS1062: Expected semicolon or closing curly-brac
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-    url('../fonts/OpenSans-Regular.woff') format('woff'),
-    url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -25,8 +25,8 @@ input(1054,18): run-time error CSS1062: Expected semicolon or closing curly-brac
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-    url('../fonts/Montserrat-SemiBold.woff') format('woff'),
-    url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@ input(1054,18): run-time error CSS1062: Expected semicolon or closing curly-brac
 @font-face {
     font-family: 'Akrobat';
     src: url('../fonts/Akrobat-SemiBold.woff2') format('woff2'),
-    url('../fonts/Akrobat-SemiBold.woff') format('woff'),
-    url('../fonts/Akrobat-SemiBold.svg#Akrobat-SemiBold') format('svg');
+        url('../fonts/Akrobat-SemiBold.woff') format('woff'),
+        url('../fonts/Akrobat-SemiBold.svg#Akrobat-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -86,12 +86,7 @@ html {
 }
 
 p {
-    font-family: 'Montserrat';
-    font-weight: 600;
-}
-
-.container-fluid {
-    max-width: 1300px;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -139,7 +134,7 @@ header {
     width: 0;*/
 }
 
-.form-group .tc input:checked ~ .checkmark {
+.form-group .tc input:checked~.checkmark {
     border: 1px solid #7d7d7d;
     border-radius: 4px;
 }
@@ -150,7 +145,7 @@ header {
     display: none;
 }
 
-.form-group .tc input:checked ~ .checkmark:after {
+.form-group .tc input:checked~.checkmark:after {
     display: block;
 }
 
@@ -219,7 +214,7 @@ footer .scroll-to-top {
 }
 
 .enq-form {
-    background: #transparent;
+    background: transparent;
     padding: 1px 0px 0px 92px;
     margin-left: -90px;
 }
@@ -439,7 +434,8 @@ header .navbar-brand {
     .formwraper h3 {
         top: -80px;
     }
-    .exclusive.elegible{
+
+    .exclusive.elegible {
         padding-top: 50px;
     }
 }
@@ -1220,7 +1216,8 @@ h5.CardHeaderPanel {
     color: #000000;
 }
 
-.details .nav-pills a.nav-link.active, .nav-pills .show > .nav-link {
+.details .nav-pills a.nav-link.active,
+.nav-pills .show>.nav-link {
     background: #f68040 !important;
     /*background: linear-gradient(to right, #008247 0%, #187cbf 100%) !important;*/
 }
@@ -1279,7 +1276,6 @@ h5.CardHeaderPanel {
     color: #fff;
     font-family: inherit;
     font-size: 30px;
-"
 }
 
 .appremarketemi strong {
@@ -1292,10 +1288,12 @@ h5.CardHeaderPanel {
     font-family: inherit;
     font-size: 30px;
 }
-.formwraper2{
+
+.formwraper2 {
     display: none;
 }
-.navbar-brand{
+
+.navbar-brand {
     display: block;
 }
 
@@ -1314,7 +1312,8 @@ h5.CardHeaderPanel {
     .formwraper2 {
         display: block;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         display: none;
     }
 
@@ -1395,9 +1394,10 @@ h5.CardHeaderPanel {
         top: 82%;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         display: none;
     }
+
     .formwraper2 {
         display: block;
     }
@@ -1454,5 +1454,3 @@ h5.CardHeaderPanel {
         margin-top: 30px;
     }
 }
-
-

@@ -90,10 +90,6 @@ p {
     font-weight: 600;
 }
 
-.container-fluid {
-    max-width: 1300px;
-}
-
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
