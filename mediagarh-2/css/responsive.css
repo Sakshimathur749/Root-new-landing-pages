@@ -101,7 +101,6 @@
     .footerLeft p,
     .contactInfo,
     .footerRight,
-    .journeyCard,
     .process-card p {
         max-width: 100% !important;
         width: 100% !important;
@@ -161,6 +160,10 @@
 }
 
 @media (max-width:546px) {
+    .strengthCard {
+        width: 100% !important;
+    }
+
     .process-row-container {
         padding-top: 20px;
         gap: 30px;

@@ -26,10 +26,6 @@
         max-width: 30%;
     }
 
-    .journeyCard {
-        width: fit-content
-    }
-
     .form,
     .programPara,
     .whyTheseStreamImg img,
@@ -151,7 +147,9 @@
 }
 
 @media (max-width:546px) {
-    .journeyCard {
+
+    .journeyCard,
+    .strengthCard {
         width: 100%;
     }
 

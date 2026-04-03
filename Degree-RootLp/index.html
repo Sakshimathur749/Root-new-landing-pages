@@ -597,7 +597,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <div class="d-flex flex-wrap gap-2 gap-md-3 justify-content-center">
                             <div class="journeyCard d-flex flex-column align-items-center">
                                 <h4 class="text-center font-inter rollCount"><span data-target="1991">0</span></h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">The Beginning of Our Journey</p>
@@ -1162,6 +1162,7 @@
         const tabOrder = ['bba', 'bcom', 'ba'];
         // Mouse drag scroll
         const viewport = document.querySelector('.cards-viewport');
+
         let isDown = false;
         let startX;
         let scrollLeft;
@@ -1271,30 +1272,29 @@
         }
 
         /* ── Auto scroll (4+ cards, every 4 sec) ── */
-        function startAutoScroll(cardCount) {
+        function startAutoScroll() {
             stopAutoScroll();
-            if (cardCount < 4) return;
-
             autoTimer = setInterval(() => {
-                const maxScroll = track.scrollWidth - track.clientWidth;
-                if (track.scrollLeft >= maxScroll - 10) {
-                    track.scrollTo({ left: 0, behavior: 'smooth' });
+                const maxScroll = viewport.scrollWidth - viewport.clientWidth;
+
+                // Agar end tak pahuch gaye toh wapas start ya next tab? 
+                // Yaha hum usi tab ke cards ko loop kar rahe hai
+                if (viewport.scrollLeft >= maxScroll - 5) {
+                    viewport.scrollTo({ left: 0, behavior: 'smooth' });
                 } else {
-                    const cardWidth = (track.querySelector('.prog-card')?.offsetWidth || 280) + 20;
-                    track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+                    const cardWidth = (track.querySelector('.prog-card')?.offsetWidth || 300) + 20;
+                    viewport.scrollBy({ left: cardWidth, behavior: 'smooth' });
                 }
-            }, 4000);
+            }, 1000); // 3 seconds interval
         }
 
         function stopAutoScroll() {
-            if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+            if (autoTimer) clearInterval(autoTimer);
         }
 
-        track.addEventListener('mouseenter', stopAutoScroll);
-        track.addEventListener('mouseleave', () => {
-            startAutoScroll((data[currentTab] || []).length);
-        });
-
+        // Pause on Hover
+        viewport.addEventListener('mouseenter', stopAutoScroll);
+        viewport.addEventListener('mouseleave', startAutoScroll);
         /* ── Switch tab ── */
         function switchTab(tab) {
             if (tab === currentTab) return;

@@ -112,11 +112,15 @@
     .campusExperience h3,
     .journeyCard h4,
     .careerContent h3,
-    .why-title,
     .corp-title,
     .section-heading {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .why-title {
+        font-size: 24px;
+        line-height: 35px;
     }
 
     .formHead h3,
@@ -240,15 +244,17 @@
     .prog-tabs {
         margin: 20px 0px;
     }
+
+    .logo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (max-width:576px) {
-    .journeyCard {
-        width: 100%;
-        max-width: 100%;
-    }
 
-    .content-hero {
+    .content-hero,
+    .strengthCard {
         width: 100% !important;
     }
 
@@ -280,7 +286,5 @@
         flex: 0 0 85%;
     }
 
-    .logo-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
 }
