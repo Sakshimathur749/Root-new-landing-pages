@@ -112,13 +112,13 @@
     .campusExperience h3,
     .journeyCard h4,
     .careerContent h3,
-    .corp-title,
     .section-heading {
         font-size: 30px;
         line-height: 40px;
     }
 
-    .why-title {
+    .why-title,
+    .corp-title {
         font-size: 24px;
         line-height: 35px;
     }
@@ -295,10 +295,6 @@
         min-height: 220px;
         order: -1;
         /* image pehle aaye mobile pe */
-    }
-
-    .career-card {
-        padding: 20px 16px;
     }
 
     .career-card-title {
