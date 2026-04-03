@@ -231,6 +231,40 @@
 }
 
 @media (max-width:764px) {
+    .logo-grid {
+        display: none;
+    }
+
+    .logo-slider {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .logo-track {
+        display: flex;
+        gap: 15px;
+        animation: scroll 5s linear infinite;
+    }
+
+    .logo-card {
+        flex: 0 0 50%;
+        max-width: 50%;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        padding: 10px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
     .hero-img {
         bottom: -37px;
     }
@@ -252,6 +286,24 @@
 }
 
 @media (max-width:576px) {
+    .career-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .career-card-image {
+        min-height: 220px;
+        order: -1;
+        /* image pehle aaye mobile pe */
+    }
+
+    .career-card {
+        padding: 20px 16px;
+    }
+
+    .career-card-title {
+        font-size: 20px;
+    }
 
     .content-hero,
     .strengthCard {

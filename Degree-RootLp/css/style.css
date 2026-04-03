@@ -532,6 +532,120 @@ input {
     background: linear-gradient(0deg, rgba(0, 35, 64, 0.75) 0%, rgba(0, 0, 0, 0.00) 55%);
 }
 
+.career-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 14px;
+}
+
+/* Base card */
+.career-card {
+    border-radius: 16px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.career-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon circle */
+.career-card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 4px;
+}
+
+/* Card title */
+.career-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* Card desc */
+.career-card-desc {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Bullet list */
+.career-card-list {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.career-card-list li {
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.5;
+}
+
+.career-card-list li::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' fill='none'%3E%3Cpath d='M11.6673 3.5L5.25065 9.91667L2.33398 7' stroke='white' stroke-opacity='0.8' stroke-width='1.16667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Color variants */
+.career-card-orange {
+    background: #E46B3F;
+}
+
+.career-card-navy {
+    background: #1F144F;
+}
+
+.career-card-amber {
+    background: #D4930A;
+}
+
+/* Image card */
+.career-card-image {
+    padding: 0;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.career-card-image img {
+    border-radius: 16px;
+    display: block;
+}
+
+
 /* Row spans */
 
 
