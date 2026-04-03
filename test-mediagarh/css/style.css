@@ -13,6 +13,14 @@ input {
     margin-top: 5px;
 }
 
+button[type="submit"]:hover,
+button[type="cta"]:hover,
+button[type="cta"]:hover svg,
+button[type="cta"]:hover .text-hover {
+    background-color: #e75a26 !important;
+    color: #fff !important;
+}
+
 .form-control {
     font-size: 16px !important;
 }
@@ -52,6 +60,10 @@ input {
 
 .text-gray {
     color: #D1D5DC !important;
+}
+
+.bg-blue-cta {
+    background: rgb(59 130 246 / 90%) !important;
 }
 
 .text-color-3 {
@@ -168,8 +180,10 @@ input {
 }
 
 .mainBgImage {
-    padding: 94px 0px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(102, 102, 102, 0.60) 100%), url('../images/HeroSection.webp') lightgray 2px / 100% 100% no-repeat;
+    padding: 80px 0px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, -4.4) 0%, rgba(102, 102, 102, -2.4) 100%), url('../images/HeroSection.webp') lightgray 2px / 100% 100% no-repeat;
+    background-size: 120%;
+    background-position: center;
 }
 
 .admissionBadge,
@@ -397,11 +411,15 @@ input {
 }
 
 .cardContainer:hover .subjectHead,
-.cardContainer:hover .subTitle,
-.cardContainer:hover div p,
-.feature-card:hover .feature-content h5,
-.feature-card:hover .feature-content p {
+.feature-card:hover .feature-content h5 {
     color: white !important;
+}
+
+.cardContainer:hover div p,
+.cardContainer:hover .subTitle,
+.cardContainer:hover .subBadge,
+.feature-card:hover .feature-content p {
+    color: rgba(255, 255, 255, 0.60) !important;
 }
 
 .cardContainer {

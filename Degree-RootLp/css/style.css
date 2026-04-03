@@ -11,6 +11,17 @@ input {
     outline: none;
 }
 
+#cta:hover {
+    color: #fff !important;
+    background-color: #f35f29 !important;
+}
+
+#cta-blue:hover {
+    background: #1c62d3 !important;
+    background-color: #1c62d3 !important;
+    color: #fff !important;
+}
+
 .object-top {
     object-position: top;
 }
@@ -58,6 +69,10 @@ input {
 
 .text-color-4 {
     color: #4A5565 !important;
+}
+
+.bg-blue-cta {
+    background: rgb(59 130 246 / 90%) !important;
 }
 
 .text-color-5 {

@@ -12,6 +12,11 @@ input {
     outline: none;
 }
 
+#submit:hover {
+    background-color: #cc2e22 !important;
+    color: #ffffff !important;
+}
+
 .w-fit {
     width: fit-content;
 }
@@ -32,6 +37,10 @@ input {
 
 .text-orange {
     color: #E42A1D !important;
+}
+
+.bg-blue-cta {
+    background: rgb(59 130 246 / 90%) !important;
 }
 
 .text-navy {

@@ -122,7 +122,7 @@
                                     </svg>
                                 </h3>
                             </div>
-                            <a href="#admission-form"
+                            <a href="#admission-form" id="submit"
                                 class="text-decoration-none d-inline-flex justify-content-center align-items-center apply-btn text-white border-0 inter text-center">Enroll
                                 Now <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 28 28"
                                     fill="none" class="ms-2">
@@ -198,7 +198,7 @@
                                         </div>
                                     </div>
                                     <input type="hidden" name="formType" value="Root Design Page">
-                                    <button type="submit" name="submit"
+                                    <button id="submit" type="submit" name="submit"
                                         class="apply-btn text-white border-0 rounded-0">Save
                                         Your Spot</button>
                                 </div>
@@ -209,7 +209,18 @@
             </div>
         </div>
         <!-- Hero Section -->
-
+        <div class="position-fixed top-50 z-999 " style="transform: rotate(-90deg); z-index: 999; right:-55px;">
+            <a href="#admission-form"><button id="submit"
+                    class="text-decoration-none d-inline-flex rounded-0 justify-content-center align-items-center apply-btn text-white border-0 inter text-center w-100 w-fit bg-orange">
+                    <span>Apply Now</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        class="ms-2">
+                        <path d="M3.33301 8H12.6663" stroke="white" stroke-width="1.33333" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M8 3.33331L12.6667 7.99998L8 12.6666" stroke="white" stroke-width="1.33333"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></button></a>
+        </div>
         <!-- What We Offer -->
         <div class="container container-py">
             <div class="row align-items-stretch mx-0 mx-md-0">
@@ -226,7 +237,7 @@
                                     skills in fashion and
                                     interior design, with practical learning and project-based experience.</p>
                             </div>
-                            <a href="#admission-form"
+                            <a href="#admission-form" id="submit"
                                 class="text-decoration-none d-flex align-items-center justify-content-center enrollbtn inter border-0 w-fit">Enroll
                                 Now <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 28 28"
                                     fill="none" class="ms-2">
@@ -935,7 +946,7 @@
                     <div
                         class="bg-orange d-flex flex-column align-items-center mx-auto justify-content-center ctaContainer rounded-4">
                         <p class="mb-0 text-center inter pt-4">Ready to start your design career journey?</p>
-                        <a href=" #admission-form"
+                        <a href=" #admission-form" id="submit"
                             class="btn-career mb-4 text-white text-center inter text-decoration-none">
                             Apply Now
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
@@ -968,27 +979,27 @@
                     <div class="col-12">
                         <div class="d-flex flex-wrap gap-3 justify-content-center">
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">1991</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="1991">0</span></h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">The Beginning of Our Journey</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">4</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="4">0</span></h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">Sprawling Campuses</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">7</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="7">0</span></h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">Colleges Across the Collegium</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">23</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="23">0</span></h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">Academic Programs</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">70+</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="70">0</span>+</h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">Experienced Faculty Members</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">15,000+</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="15000">0</span>+</h4>
                                 <p class="inter text-center text-color-3 w-100 mb-0">Strong Alumni Network</p>
                             </div>
                         </div>
@@ -1205,6 +1216,7 @@
                     <div class="d-flex gap-2 align-items-center justify-content-center flex-column flex-md-row">
                         <a href="#admission-form"
                             class="text-decoration-none d-inline-flex justify-content-center align-items-center"><button
+                                id="submit"
                                 class="d-inline-flex justify-content-center align-items-center apply-btn text-white border-0 w-fit">Apply
                                 Now <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 28 28"
                                     fill="none" class="ms-2">
@@ -1215,6 +1227,7 @@
                                 </svg></button></a>
                         <a href="#admission-form"
                             class="text-decoration-none d-inline-flex justify-content-center align-items-center"><button
+                                id="submit"
                                 class="d-inline-flex justify-content-center align-items-center border-0 w-fit downloadBrochure"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
                                     fill="none" class="me-2">
@@ -1276,7 +1289,7 @@
                                 <img src="images/Overlay+Shadow.webp" class="h-100 w-100 object-fit-cover"
                                     alt="Students at Roots Design College" />
                             </div>
-                            <a href="#admission-form"
+                            <a href="#admission-form" id="submit"
                                 class="text-decoration-none py-3 rounded-3 text-white text-center inter text-decoration-none bg-orange w-100 ">Contact
                                 Our
                                 Admissions Team <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -1502,6 +1515,29 @@
     <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script>
+        const counters = document.querySelectorAll(".rollCount span");
+
+        counters.forEach((counter) => {
+            const target = +counter.getAttribute("data-target");
+            counter.innerText = "0";
+
+            const updateCounter = () => {
+                const current = +counter.innerText;
+                const increment = Math.ceil(target / 700);
+
+                if (current < target) {
+                    counter.innerText = current + increment;
+                    setTimeout(updateCounter, 40);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCounter();
+        });
+
+    </script>
     <script>
         // Send lead data to Google Sheets in addition to normal PHP form handling
         document.addEventListener('DOMContentLoaded', function () {

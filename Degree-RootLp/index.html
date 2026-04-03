@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                     <div class="d-flex flex-column flex-md-row gap-2 gap-md-3">
-                                        <a href="#admission-form"
+                                        <a href="#admission-form" id="cta-blue"
                                             class="text-decoration-none d-inline-flex justify-content-center align-items-center apply-btn text-white border-0 inter text-center">Apply
                                             Now <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                                 viewBox="0 0 28 28" fill="none" class="ms-2">
@@ -152,7 +152,7 @@
                                         </div>
                                     </div>
                                     <input type="hidden" name="formType" value="degree">
-                                    <button type="submit" name="submit"
+                                    <button type="submit" name="submit" id="cta"
                                         class="formSubmitbutton bg-orange text-white border-0 rounded-0">Save
                                         Your Spot</button>
                                 </div>
@@ -168,7 +168,18 @@
             </div>
         </div>
         <!-- Hero Section -->
-
+        <div class="position-fixed top-50 z-999 " style="transform: rotate(-90deg); z-index: 999; right:-55px;">
+            <a href="#admission-form"><button id="cta-blue"
+                    class="text-decoration-none d-inline-flex rounded-0 justify-content-center align-items-center apply-btn text-white border-0 inter text-center w-100 w-fit bg-blue-cta">
+                    <span>Apply Now</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        class="ms-2">
+                        <path d="M3.33301 8H12.6663" stroke="white" stroke-width="1.33333" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M8 3.33331L12.6667 7.99998L8 12.6666" stroke="white" stroke-width="1.33333"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></button></a>
+        </div>
         <!-- Our Programme -->
         <div class="programmes-section container-fluid">
             <div class="container container-py">
@@ -560,7 +571,8 @@
                                 </div> Civil Services & Communication Roles
                             </li>
                         </ul>
-                        <button class="Applybtn inter fw-700 bg-transparent rounded-3 text-orange-2 w-fit">Apply
+                        <button class="Applybtn inter fw-700 bg-transparent rounded-3 text-orange-2 w-fit"
+                            id="cta">Apply
                             Now</button>
                     </div>
                 </div>
@@ -587,27 +599,27 @@
                     <div class="col-12">
                         <div class="d-flex flex-wrap gap-3 justify-content-center">
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">1991</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="1991">0</span></h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">The Beginning of Our Journey</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">4</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="4">0</span></h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">Sprawling Campuses</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">7</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="7">0</span></h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">Colleges Across the Collegium</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">23</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="23">0</span></h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">Academic Programs</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">70+</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="70">0</span>+</h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">Experienced Faculty Members</p>
                             </div>
                             <div class="journeyCard d-flex flex-column align-items-center">
-                                <h4 class="text-center font-inter">15,000+</h4>
+                                <h4 class="text-center font-inter rollCount"><span data-target="15000">0</span>+</h4>
                                 <p class="inter text-center text-color-5 w-100 mb-0">Strong Alumni Network</p>
                             </div>
                         </div>
@@ -781,7 +793,7 @@
                                     class="cta-card d-flex flex-column align-items-center justify-content-center text-center overflow-hidden position-relative h-100">
                                     <p class="cta-label text-orange-2 ls-2 text-uppercase mb-3">Be Part of It</p>
                                     <h3 class="cta-heading mb-3">Your Story Starts Here</h3>
-                                    <a href="#admission-form"
+                                    <a href="#admission-form" id="cta"
                                         class="cta-btn border border-orange bg-transparent rounded-3 text-orange-2">Apply
                                         Now</a>
                                 </div>
@@ -808,7 +820,7 @@
                     <p class="text-color-1 inter text-center mb-md-3">Applications are now open for BBA, B.Com, and BA
                         programs.
                     </p>
-                    <a href="#admission-form"
+                    <a href="#admission-form" id="cta"
                         class="d-flex justify-content-center align-items-center rounded-4 bg-orange-2 py-md-3 px-5 text-decoration-none text-white ctabutton fw-500 w-fit">Apply
                         Now </a>
                 </div>
@@ -1322,6 +1334,29 @@
     <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script>
+        const counters = document.querySelectorAll(".rollCount span");
+
+        counters.forEach((counter) => {
+            const target = +counter.getAttribute("data-target");
+            counter.innerText = "0";
+
+            const updateCounter = () => {
+                const current = +counter.innerText;
+                const increment = Math.ceil(target / 700);
+
+                if (current < target) {
+                    counter.innerText = current + increment;
+                    setTimeout(updateCounter, 40);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCounter();
+        });
+
+    </script>
     <script>
         // Send lead data to Google Sheets in addition to normal PHP form handling
         document.addEventListener('DOMContentLoaded', function () {
